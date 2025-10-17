@@ -1,1 +1,51 @@
-/*  your css code here. If applicable */
+body {
+  background-color: rgb(204, 204, 204);
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding: 9px;
+}
+
+.song {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.song li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+p {
+  margin: 10px;
+}
+
+.main h1,
+.main h2,
+.main h3 {
+  text-align: center;
+}
+
+.av {
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  border-radius: 9px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.player_one,
+.player_two {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  display: block;
+}
